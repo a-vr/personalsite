@@ -1,6 +1,4 @@
 import streamlit as st
-import streamlit.components.v1 as stc
-from streamlit.components.v1 import html
 from streamlit_option_menu import option_menu
 import about 
 import research
