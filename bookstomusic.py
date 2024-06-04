@@ -37,8 +37,11 @@ def app():
                      it would be fun to let this song traansport you there when you read it.""")
         with image1:
             st.write("")
+            st.write("")
+            st.write("")
             st.image("btmimages/hitchhikers.jpg", width=273, caption="The cover of the version of Hitchhiker's Guide I bought.")
         with image2:
+            st.write("")
             st.write("")
             st.write("")
             st.write("")
@@ -66,8 +69,14 @@ def app():
                      'Flowers for All Occasions' by Blood Cultures, who does a great job with more futuristic feeling music in general, but 
                      also this song specifically matches Staffan's state so well and he really made this book for me.""")
         with image1:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
             st.image("btmimages/mortaldictata.jpg", width=260, caption="Mortal Dictata by Karen Traviss cover") 
         with image2:
+            st.write("")
+            st.write("")
             st.write("")
             st.write("")
             st.image("btmimages/flowersforalloccasions.jpg", width=260, caption="Flowers for All Occasions by Blood Cultures cover")
@@ -98,8 +107,12 @@ def app():
             st.write("")
             st.write("")
             st.write("")
+            st.write("")
+            st.write("")
             st.image("btmimages/annihilation.jpg", width=273, caption="Cred to Blue J on ArtStation (https://www.artstation.com/artwork/188JZ8)")
         with image2:
+            st.write("")
+            st.write("")
             st.write("")
             st.write("")
             st.image("btmimages/dreamland.jpg", width=273, caption="Ferdous Dreamland EP cover") 
