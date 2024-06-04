@@ -38,5 +38,5 @@ def app():
             - **Project Management**: Leading multidisciplinary teams to execute complex projects, from designing Mars mission concepts to spearheading research in astronomy and beyond.
             - **Technical Writing and Communication**: Communicating complex technical concepts clearly and effectively to anyone, regardless of their background.
             
-            You can check out my Reseach and Projects pages to learn more!""")
+            You can check out my Research and Projects pages to learn more!""")
         
