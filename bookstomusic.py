@@ -49,6 +49,8 @@ def app():
             st.write("")
             st.image("btmimages/hawaiipt2.jpg", width=273, caption="The album cover for Hawaii Part II buy Miracle Musical")
             st.audio("soundbites/dream-sweet-in-sea-major.mp3")
+
+    st.write("---")
     # second post
     # title and date container
     with st.container():
@@ -82,7 +84,7 @@ def app():
             st.image("btmimages/flowersforalloccasions.jpg", width=260, caption="Flowers for All Occasions by Blood Cultures cover")
             st.audio("soundbites/flowers-for-all-occasions.mp3")
         
-
+    st.write("---")
     # first post
     # title and date container
     with st.container():
@@ -124,8 +126,5 @@ def app():
             """
             st.audio("soundbites/celestial-kiss-official-visualizer.mp3")
     
-            
-    # break
-    st.write("---")
 
     
