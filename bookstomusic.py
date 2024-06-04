@@ -12,9 +12,8 @@ def app():
     st.title("Books to Music")
     st.write("Welcome to Books to Music, where I set some of the books I've read recently to music that I think matches them.")
     st.write("""This is NOT a book review page, but if you have thoughts about any of these, 
-             I would love to hear from you through my contact page.""" )
+             I would love to hear from you through my contacts page.""" )
     st.write("---")
-
 
     # third post
     # title and date container
@@ -45,9 +44,8 @@ def app():
             st.write("")
             st.write("")
             st.write("")
-            st.write("")
             st.image("btmimages/hawaiipt2.jpg", width=273, caption="The album cover for Hawaii Part II buy Miracle Musical")
-
+            st.audio("soundbites/dream-sweet-in-sea-major.mp3")
     # second post
     # title and date container
     with st.container():
@@ -73,6 +71,7 @@ def app():
             st.write("")
             st.write("")
             st.image("btmimages/flowersforalloccasions.jpg", width=260, caption="Flowers for All Occasions by Blood Cultures cover")
+            st.audio("soundbites/flowers-for-all-occasions.mp3")
         
 
     # first post
@@ -104,7 +103,13 @@ def app():
             st.write("")
             st.write("")
             st.image("btmimages/dreamland.jpg", width=273, caption="Ferdous Dreamland EP cover") 
-
+            javascript_code = """
+            <audio controls>
+            <source src="soundbites/celestial-kiss-official-visualizer.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+            """
+            st.audio("soundbites/celestial-kiss-official-visualizer.mp3")
     
             
     # break
