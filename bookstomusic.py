@@ -12,7 +12,7 @@ def app():
     st.title("Books to Music")
     st.write("Welcome to Books to Music, where I set some of the books I've read recently to music that I think matches them.")
     st.write("""This is NOT a book review page, but if you have thoughts about any of these, 
-             I would love to hear from you through my contacts page.""" )
+             I would love to hear from you through my contact page.""" )
     st.write("---")
 
 
