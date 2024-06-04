@@ -12,7 +12,7 @@ def app():
 
     # start form page 
     st.title("Contact Me")
-    st.write("I'd love to hear from you! Feel free to reach out about career oppurtunities, research, or anything else you found interesting on my site.")
+    st.write("Feel free to reach out about career oppurtunities, research, or anything else you found interesting on my site.")
 
     contact_form = """
     <form action="https://formsubmit.co/akanksha@ramabadran.com" method="POST">
