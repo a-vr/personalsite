@@ -26,11 +26,13 @@ def app():
 
     st.markdown(contact_form, unsafe_allow_html=True)
 
-    st.markdown("""
+    submit_message = """
     <script>
     document.getElementById('contactForm').addEventListener('submit', function() {
         alert('Thank you for your message!');
     });
     </script>
     """)
+
+    st.markdown(submit_message, unsafe_allow_html=True)
     
