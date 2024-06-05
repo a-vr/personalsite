@@ -32,7 +32,7 @@ def app():
         alert('Thank you for your message!');
     });
     </script>
-    """)
+    """
 
     st.markdown(submit_message, unsafe_allow_html=True)
     
