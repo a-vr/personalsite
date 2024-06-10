@@ -53,7 +53,7 @@ def app():
             st.markdown("<p style='text-align: right;'><i>5/30/2024</i></p>", unsafe_allow_html=True)
     # text and images container
     with st.container():
-        text, image1, image2 = st.columns((4,3,3))
+        text, image1, image2 = st.columns((5,3,3))
         with text:
             st.write("""Hitchhiker's Guide is a scifi classic by Douglas Adams that I somehow only recently got around to reading this year 
                      because I got the complete collection on sale at Barnes and Noble. """)
@@ -89,7 +89,7 @@ def app():
             st.markdown("<p style='text-align: right;'><i>5/24/2024</i></p>", unsafe_allow_html=True)
     # text and images container 
     with st.container():
-        text, image1, image2 = st.columns((4,3,3))
+        text, image1, image2 = st.columns((5,3,3))
         with text:
             st.write("""Mortal Dictata is the final installment of the Halo Kilo 5 trilogy by Karen Traviss, who has long been 
                      involved in beloved scifi franchises like Star Wars and Gears of War. This book is no exception to 
@@ -123,7 +123,7 @@ def app():
             st.markdown("<p style='text-align: right;'><i>5/23/2024</i></p>", unsafe_allow_html=True)
     # text and images container 
     with st.container():
-        text, image1, image2 = st.columns((4,3,3))
+        text, image1, image2 = st.columns((5,3,3))
         with text:
             st.write("""Jeff Vandermeer's Southern Reach trilogy invokes a sense of unease that makes time taste like salt water. 
                      He does a brilliant job describing a pristine natural world that is out to get you.""")
