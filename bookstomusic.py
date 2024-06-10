@@ -15,6 +15,34 @@ def app():
              I would love to hear from you through my contacts page.""" )
     st.write("---")
 
+    # fourth post 
+    with st.container():
+        title, date = st.columns((3,1))
+        with title:
+            st.subheader("*My Lady Jane x Horsey*")
+        with date:
+            st.markdown("<p style='text-align: right;'><i>6/10/2024</i></p>", unsafe_allow_html=True)
+    # text and images container
+    with st.container():
+        text, image1, image2 = st.columns((5,3,3))
+        with text:
+            st.write("""Is this post just an excuse for me to talk bring up Macross 82-99? Yes. Am I still writing it anyway? Also yes. """)
+            st.write("""My Lady Jane is a historical fantasy novel that I cannot describe at all without potentially spoiling it. Just know it is 
+                     weird and it is brilliant and there are horses and you should read it.""")
+            st.write("""The only thing that has ever surprised me in the way that this book did was listening to Horsey for the first time. 
+                     I am a huge fan of the citypop for its funky and uplifting attitude so naturely I listen to a lot of Macross 82-99's 
+                     work. Horsey (feat. Sarah Bonito) is unlike anything else I've heard from them. It's still very danceable but it's got a certain desperation 
+                     to it that I didn't expect from Macross and I could not for the life of me figure out what this song was for. This book is 
+                     the answer.  """)
+        with image1:
+            st.image("btmimages/myladyjane.jpg", width=273, caption="The cover of My Lady Jane by Brodi Ashton, Cynthia Hand, and Jodi Meadows.")
+        with image2:
+            st.write("")
+            st.write("")
+            st.image("btmimages/horsey.jpeg", width=273, caption="The album cover for A Million Miles Away by Macross 82-99")
+            st.audio("soundbites/horsey.mp3")
+
+    st.write("---")
     # third post
     # title and date container
     with st.container():
