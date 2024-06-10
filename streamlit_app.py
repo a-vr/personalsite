@@ -7,17 +7,7 @@ import contact
 import bookstomusic
 
 
-### theme settings
-#[theme]
-#[theme]
-#primaryColor="#fb7375"
-#backgroundColor="#fdf5ea"
-#secondaryBackgroundColor="#4aabd2"
-#textColor="#4b4e54"
-#font="monospace"
-
-
-st.set_page_config(page_title="Akanksha's Webpage", page_icon="", layout="wide")
+st.set_page_config(page_title="Akanksha's Webpage", page_icon="telescope", layout="wide")
 
 # Define the HTML for the header with GitHub and LinkedIn links
 header_html = """
