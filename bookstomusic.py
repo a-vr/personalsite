@@ -48,6 +48,7 @@ def app():
             st.write("")
             st.image("btmimages/rather_be_video_cover.jpg", width=273, caption="Youtube thumbnail for the music video of Rather Be by Clean Bandit (feat. Jess Glyne)")
             st.audio("soundbites/rather_be.mp3")
+    st.write("---")
     
     # fourth post 
     with st.container():
