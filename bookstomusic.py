@@ -19,7 +19,7 @@ def app():
     with st.container():
         title, date = st.columns((3,1))
         with title:
-            st.subheader("*Catching Fire x Rather Be*")
+            st.subheader("*Mockingjay x Rather Be*")
         with date:
             st.markdown("<p style='text-align: right;'><i>6/22/2024</i></p>", unsafe_allow_html=True)
     # text and images container
