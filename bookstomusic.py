@@ -15,6 +15,32 @@ def app():
              I would love to hear from you through my contacts page.""" )
     st.write("---")
 
+    #fifth post 
+    with st.container():
+        title, date = st.columns((3,1))
+        with title:
+            st.subheader("*Catching Fire x Rather Be*")
+        with date:
+            st.markdown("<p style='text-align: right;'><i>6/22/2024</i></p>", unsafe_allow_html=True)
+    # text and images container
+    with st.container():
+        text, image1, image2 = st.columns((5,3,3))
+        with text:
+            st.write("""In honor of the new Hunger Games book being announced, I would like to point out a book-music match that has been on my mind since 2015.""")
+            st.write("""Rather Be by Clean Bandit feat. Jess Glyne and Mockingjay by Suzanne Collins (last book of the Hunger Games trilogy).""")
+            st.write("""Mockingjay already has many songs literally made for its story since the movie has its own soundtrack. But when I heard this song, I 
+            was utterly convinced the movie needs to be rereleased with this at the end. It references taking "a shot in the dark" and Katniss is famously an archer.
+            It's a song about finally being with someone after going through a lot to be with them. It's even easy to switch "Exalted in the scene" for "Exalted in the 
+            Seam", where Katniss grew up in the books, and it would make so much sense. In conclusion, please add this song to the official Mockingjay soundtrack 
+            and listen to Clean Bandit because they are still very cool.""")
+        with image1:
+            st.image("btmimages/katniss_epilogue.jpg", width=273, caption="Jennifer Lawrence as Katniss in the epilogue of Mockingjay")
+        with image2:
+            st.write("")
+            st.write("")
+            st.image("btmimages/rather_be_video_cover.jpg", width=273, caption="Youtube thumbnail for the music video of Rather Be by Clean Bandit (feat. Jess Glyne)")
+            st.audio("soundbites/rather_be.mp3")
+    
     # fourth post 
     with st.container():
         title, date = st.columns((3,1))
