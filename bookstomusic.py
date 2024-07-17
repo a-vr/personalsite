@@ -15,6 +15,44 @@ def app():
              I would love to hear from you through my contacts page.""" )
     st.write("---")
 
+    #sixth post 
+    with st.container():
+        title, date = st.columns((3,1))
+        with title:
+            st.subheader("*Symposium x Everything is Romantic*")
+        with date:
+            st.markdown("<p style='text-align: right;'><i>7/17/2024</i></p>", unsafe_allow_html=True)
+    # text and images container
+    with st.container():
+        text, image1, image2 = st.columns((5,3,3))
+        with text:
+            st.write("""It's probably not a secret at this point that my literary preferences lean towards scifi and fantasy. But after enough time, those vast 
+            universes can leave me feeling unsure of my own place in this dull reality and I end up taking little ventures into philosophy to cope.""")
+            st.write("""The Symposium, in my very-much-not-expert opinion, is a good entry point for reading philosophy because it's really 
+            more of a fictional dialogue than anything else. As in much work by Plato, ideas are relayed through speeches by Socrates and other characters, to make his own 
+            arguments and counterarguments. In this case, those dialogues are centered around the god and idea of love.""")
+            st.write("""It's easy for me to set this text to classical music, and tell you to imagine reveling as these philosophers work to understand one of the most 
+            fundemental human emotions that you are undoubtedly too inebriated to care about. But luckily, charli xcx dropped the Brat album this summer so 
+            I get to be a little more creative than that.""")
+            st.write("""The song Everything is romantic is short but perfectly encapsulates that true beauty, the Form of Beauty as its called in Symposium, can be anywhere.
+            And no matter how dull, if you care to look, you'll fall in love, again, and again, and again.""")
+        with image1:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.image("btmimages/katniss_epilogue.jpg", width=273, caption="Jennifer Lawrence as Katniss in the epilogue of Mockingjay")
+        with image2:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.image("btmimages/rather_be_video_cover.jpg", width=273, caption="Youtube thumbnail for the music video of Rather Be by Clean Bandit (feat. Jess Glyne)")
+            st.audio("soundbites/rather_be.mp3")
+    st.write("---")
+
     #fifth post 
     with st.container():
         title, date = st.columns((3,1))
