@@ -29,7 +29,7 @@ def app():
             st.write("""It's probably not a secret at this point that my literary preferences lean towards scifi and fantasy. But after enough time, those vast 
             universes can leave me feeling unsatisfied with this seemingly dull reality and I end up taking little ventures into philosophy to cope.""")
             st.write("""The Symposium, in my very-much-not-expert opinion, is a good entry point for reading philosophy because it's really 
-            more of a fictional dialogue than anything else. As in much work by Plato, ideas are relayed through speeches by Socrates and other characters, ans in this case, 
+            more of a fictional dialogue than anything else. As in much work by Plato, ideas are relayed through speeches by Socrates and other characters, and in this case, 
             centered the god and idea of love.""")
             st.write("""It's easy for me to set this text to classical music, and have you imagine reveling with these philosophers, as they work to understand one of the most 
             fundemental human emotions and you are too inebriated to care. But luckily, charli xcx dropped the Brat album this summer so 
@@ -162,7 +162,7 @@ def app():
     with st.container():
         title, date = st.columns((3,1))
         with title:
-            st.subheader("*Mortal Dictata x Space Cowboy*")
+            st.subheader("*Mortal Dictata x Flowers for All Occasions*")
         with date:
             st.markdown("<p style='text-align: right;'><i>5/24/2024</i></p>", unsafe_allow_html=True)
     # text and images container 
