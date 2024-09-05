@@ -15,6 +15,42 @@ def app():
              I would love to hear from you through my contacts page.""" )
     st.write("---")
 
+    #seventh post 
+    with st.container():
+        title, date = st.columns((3,1))
+        with title:
+            st.subheader("*Borne x She Looked Like Me!*")
+        with date:
+            st.markdown("<p style='text-align: right;'><i>9/4/2024</i></p>", unsafe_allow_html=True)
+    # text and images container
+    with st.container():
+        text, image1, image2 = st.columns((5,3,3))
+        with text:
+            st.write("""I'm too sleepy to pretend to have anything interesting to sya so I'm just going to say, I love Jeff Vandermeer and 
+            I love Magdalena Bay, and as such, I absolutely have to have one post about both of them, for me.""")
+            st.write("""Borne by Jeff Vandermeer is another fantastic ecohorror read about characters who are really just bystanders to 
+            the greater conflict of their world. I could give more of a description but I really think the book is better going in blind, 
+            which is the way I read it.""")
+            st.write("""Usually when I'm looking for a song for a book, I'm not actually looking. I just listen to music and sometimes relate 
+            it to something I've been reading. However in this case, I really really really wanted to find a Magdaalena Bay song for this book 
+            because I think in general, the duo also is creating a creepy scifi atmosphere that invokes the feeling of being forced into 
+            another world. I think I did just that with the song "She Looked Like Me!", which without spoiling too much of Borne introduces 
+            the idea of confronting another version of yourself.""")
+        with image1:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.image("btmimages/borne.jpg", width=273, caption="Illustration of Borne by rhunevild from DeviantArt")
+        with image2:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.image("btmimages/imaginaldisk.jpg", width=273, caption="Album cover for Imaginal Disk by Magdalena Bay")
+            st.audio("soundbites/shelookedlikeme.mp3")
+    st.write("---")
+
     #sixth post 
     with st.container():
         title, date = st.columns((3,1))
