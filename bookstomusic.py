@@ -26,16 +26,16 @@ def app():
     with st.container():
         text, image1, image2 = st.columns((5,3,3))
         with text:
-            st.write("""I'm too sleepy to pretend to have anything interesting to sya so I'm just going to say, I love Jeff Vandermeer and 
+            st.write("""I'm too sleepy to pretend to have anything interesting to say so I'm just going to go with, I love Jeff Vandermeer and 
             I love Magdalena Bay, and as such, I absolutely have to have one post about both of them, for me.""")
-            st.write("""Borne by Jeff Vandermeer is another fantastic ecohorror read about characters who are really just bystanders to 
+            st.write("""Borne by Jeff Vandermeer is another fantastic eco-horror read about characters who are really just bystanders to 
             the greater conflict of their world. I could give more of a description but I really think the book is better going in blind, 
             which is the way I read it.""")
             st.write("""Usually when I'm looking for a song for a book, I'm not actually looking. I just listen to music and sometimes relate 
-            it to something I've been reading. However in this case, I really really really wanted to find a Magdaalena Bay song for this book 
+            it to something I've been reading. However in this case, I really really really wanted to find a Magdalena Bay song for this book 
             because I think in general, the duo also is creating a creepy scifi atmosphere that invokes the feeling of being forced into 
-            another world. I think I did just that with the song "She Looked Like Me!", which without spoiling too much of Borne introduces 
-            the idea of confronting another version of yourself.""")
+            another world. I think I did just that with the song "She Looked Like Me!", which without spoiling too much of Borne, introduces 
+            the idea of confronting another version of yourself that they build on throughout their album.""")
         with image1:
             st.write("")
             st.write("")
@@ -47,7 +47,7 @@ def app():
             st.write("")
             st.write("")
             st.write("")
-            st.image("btmimages/imaginaldisk.jpg", width=273, caption="Album cover for Imaginal Disk by Magdalena Bay")
+            st.image("btmimages/imaginaldisk.jfif", width=273, caption="Album cover for Imaginal Disk by Magdalena Bay")
             st.audio("soundbites/shelookedlikeme.mp3")
     st.write("---")
 
