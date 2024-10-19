@@ -15,6 +15,47 @@ def app():
              I would love to hear from you through my contacts page.""" )
     st.write("---")
 
+    # eighth post 
+    with st.container():
+        title, date = st.columns((3,1))
+        with title:
+            st.subheader("*A Face Like Glass x Cloud*")
+        with date:
+            st.markdown("<p style='text-align: right;'><i>10/19/2024</i></p>", unsafe_allow_html=True)
+    # text and images container
+    with st.container():
+        text, image1, image2 = st.columns((5,3,3))
+        with text:
+            st.write("""For a lack of better words, the books and songs I choose for this blog are photoshopped (shocking I know). 
+            Because of this, when I started reading "A Face Like Glass" by Frances Hardinge, it was not with the intention of using it for this blog. 
+            But I couldn't shake the ideas it proposed and now, three weeks after reading it, I feel the strong compulsion to throw my thoughts about it into the void.""")
+            st.write("""This book sort of eludes description but I will try my best. A young girl is with no memories is adopted by a master maker of magical cheeses in 
+            an underground civilization where people have to buy facial expressions. As this young girl eventually explores this world, she uncovers classism, mortality, 
+            and kleptomancy (an incredibly intriguing idea on it's own), among other things.""")
+            st.write("""All of that aside, the book stuck with me most for the way is highlights how experience can change you aside from just increasing maturity. 
+            Experience literally shows in the main character's face, to a point where she worries she has to erase her memory to hide her knew knowledge. 
+            After extending his life, the King finds he can no longer feel as his wealth of emotion dulls any new ones. 
+            And with all the artisinal cheeses and wines and other concoctions floating around, it becomes very evident that a new experience fully has the potential 
+            to kill you.""")
+            st.write("""I don't know what all of this means, but it brought to mind the song Cloud by Galdive, featuring floaty vocals and lyrics pondering where "all of this feeling" 
+            leaves her. I will leave you now with both and the strong recommendation to read "A Face Like Glass". It might not be known for being academic or philosophical but I found more in that book than I have have in the last three
+            I read combined.""")
+        with image1:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.image("btmimages/aFaceLikeGlass.jpg", width=273, caption="The cover of A Face Like Glass by Frances Hardinge")
+        with image2:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.image("btmimages/cloudgaldive.jpg", width=273, caption="Album cover for Cloud by Galdive")
+            st.audio("soundbites/cloud.mp3")
+    st.write("---")
+    
+    
     #seventh post 
     with st.container():
         title, date = st.columns((3,1))
