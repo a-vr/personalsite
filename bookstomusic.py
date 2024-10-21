@@ -26,21 +26,19 @@ def app():
     with st.container():
         text, image1, image2 = st.columns((5,3,3))
         with text:
-            st.write("""For a lack of better words, the books and songs I choose for this blog are photoshopped (shocking I know). 
-            Because of this, when I started reading "A Face Like Glass" by Frances Hardinge, it was not with the intention of using it for this blog. 
-            But I couldn't shake the ideas it proposed and now, three weeks after reading it, I feel the strong compulsion to throw my thoughts 
-            about it into the void.""")
-            st.write("""This book sort of eludes description but I will try my best. A young girl is with no memories is adopted by a master maker of magical cheeses in 
-            an underground civilization where people have to buy facial expressions. As this young girl eventually explores this world, she uncovers classism, mortality, 
-            and kleptomancy (an incredibly intriguing idea on it's own), among other things.""")
-            st.write("""All of that aside, the book stuck with me most for the way is highlights how experience can change you aside from just increasing maturity. 
-            Experience literally shows in the main character's face, to a point where she worries she has to erase her memory to hide her knew knowledge. 
-            After extending his life, the King finds he can no longer feel as his wealth of emotion dulls any new ones. 
-            And with all the artisinal cheeses and wines and other concoctions floating around, it becomes very evident that a new experience fully has the potential 
+            st.write("""For a lack of better words, the media I choose for this blog is heavily curated (shocking I know). 
+            Because of this, when I started reading "A Face Like Glass" by Frances Hardinge, I did not intend to use it for this blog. 
+            But I couldn't shake it's hold on me, so now I feel the strong compulsion to throw my thoughts about it into the void.""")
+            st.write("""This book eludes description but I will try my best. A young girl with no memories is adopted by a master maker of magical cheeses in 
+            an underground kingdom where people have to buy facial expressions. As sheexplores this world, she uncovers classism, mortality, 
+            and kleptomancy (an intriguing idea on it's own), among other things.""")
+            st.write("""The book stuck with me most for the way it highlights how experience can hurt you. 
+            Experience literally mars the main character's face, to a point where she worries she has to erase her memory to fix it. 
+            After extending his life, the King finds his wealth of experience dulls any new ones. 
+            And with all the artisinal cheeses and concoctions floating around, it becomes evident that a new experience has the potential 
             to kill you.""")
             st.write("""I don't know what all of this means, but it brought to mind the song Cloud by Galdive, featuring floaty vocals and lyrics pondering where "all of this feeling" 
-            leaves her. I will leave you now with both and the strong recommendation to read "A Face Like Glass". It might not be known for being academic or philosophical but I found more in that book than I have have in the last three
-            I read combined.""")
+            leaves her. I will leave you now with both and the strong recommendation to read "A Face Like Glass" if it's description interests you.""")
         with image1:
             st.write("")
             st.write("")
