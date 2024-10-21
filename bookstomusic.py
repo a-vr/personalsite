@@ -28,7 +28,8 @@ def app():
         with text:
             st.write("""For a lack of better words, the books and songs I choose for this blog are photoshopped (shocking I know). 
             Because of this, when I started reading "A Face Like Glass" by Frances Hardinge, it was not with the intention of using it for this blog. 
-            But I couldn't shake the ideas it proposed and now, three weeks after reading it, I feel the strong compulsion to throw my thoughts about it into the void.""")
+            But I couldn't shake the ideas it proposed and now, three weeks after reading it, I feel the strong compulsion to throw my thoughts 
+            about it into the void.""")
             st.write("""This book sort of eludes description but I will try my best. A young girl is with no memories is adopted by a master maker of magical cheeses in 
             an underground civilization where people have to buy facial expressions. As this young girl eventually explores this world, she uncovers classism, mortality, 
             and kleptomancy (an incredibly intriguing idea on it's own), among other things.""")
