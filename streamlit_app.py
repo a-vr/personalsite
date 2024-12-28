@@ -13,9 +13,6 @@ st.set_page_config(page_title="Akanksha's Webpage", page_icon="telescope", layou
 header_html = """
     <div style="display: flex; justify-content: flex-end; align-items: center;">
         <div>
-            <a href="https://drive.google.com/file/d/1t1AtNxI5BAtHSnB-A9ZdmjDDi6teEz44/view?usp=drive_linkhttps://drive.google.com/file/d/1t1AtNxI5BAtHSnB-A9ZdmjDDi6teEz44/view?usp=drive_link" target="_blank" style="margin-right: 15px;">
-                <img src="https://img.icons8.com/ios-glyphs/30/4b4e54/pdf.png" width="30" height="30" alt="Resume">
-            </a>
             <a href="https://github.com/a-vr" target="_blank" style="margin-right: 15px;">
                 <img src="https://img.icons8.com/ios-filled/50/4b4e54/github.png" width="30" height="30">
             </a>
@@ -25,6 +22,9 @@ header_html = """
         </div>
     </div>
 """
+# <a href="https://drive.google.com/file/d/1t1AtNxI5BAtHSnB-A9ZdmjDDi6teEz44/view?usp=drive_linkhttps://drive.google.com/file/d/1t1AtNxI5BAtHSnB-A9ZdmjDDi6teEz44/view?usp=drive_link" target="_blank" style="margin-right: 15px;">
+                # <img src="https://img.icons8.com/ios-glyphs/30/4b4e54/pdf.png" width="30" height="30" alt="Resume">
+            # </a>
 
 # Render the header HTML using st.markdown
 st.markdown(header_html, unsafe_allow_html=True)
