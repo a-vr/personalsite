@@ -24,7 +24,7 @@ def app():
             st.markdown("<p style='text-align: right;'><i>10/19/2024</i></p>", unsafe_allow_html=True)
     # text and images container
     with st.container():
-        text, image1, image2 = st.columns((5,3,3))
+        text, images = st.columns((3,2))
         with text:
             st.write("""For a lack of better words, the media I choose for this blog is heavily curated (shocking I know). 
             Because of this, when I started reading "A Face Like Glass" by Frances Hardinge, I did not intend to use it for this blog. 
@@ -39,14 +39,8 @@ def app():
             to kill you.""")
             st.write("""I don't know what all of this means, but it brought to mind the song Cloud by Galdive, featuring floaty vocals and lyrics pondering where "all of this feeling" 
             leaves her. I will leave you now with both and the strong recommendation to read "A Face Like Glass" if it's description interests you.""")
-        with image1:
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
+        with images:
             st.image("btmimages/aFaceLikeGlass.jpg", width=273, caption="The cover of A Face Like Glass by Frances Hardinge")
-        with image2:
-            st.write("")
             st.write("")
             st.write("")
             st.write("")
