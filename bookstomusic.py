@@ -24,7 +24,7 @@ def app():
             st.markdown("<p style='text-align: right;'><i>10/19/2024</i></p>", unsafe_allow_html=True)
     # text and images container
     with st.container():
-        text, image1, image 2 = st.columns((5,3,3))
+        text, image1, image2 = st.columns((5,3,3))
         with text:
             st.write("""For a lack of better words, the media I choose for this blog is heavily curated (shocking I know). 
             Because of this, when I started reading "A Face Like Glass" by Frances Hardinge, I did not intend to use it for this blog. 
