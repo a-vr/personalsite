@@ -69,17 +69,9 @@ def app():
             another world. I think I did just that with the song "She Looked Like Me!", which without spoiling too much of Borne, introduces 
             the idea of confronting another version of yourself that they build on throughout their album.""")
         with image1:
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.image("btmimages/borne.jpg", width=273, caption="Illustration of Borne by rhunevild from DeviantArt")
+            st.image("btmimages/borne.jpg", use_container_width=True, caption="Illustration of Borne by rhunevild from DeviantArt")
         with image2:
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.image("btmimages/imaginaldisk.jfif", width=273, caption="Album cover for Imaginal Disk by Magdalena Bay")
+            st.image("btmimages/imaginaldisk.jfif", use_container_width=True, caption="Album cover for Imaginal Disk by Magdalena Bay")
             st.audio("soundbites/shelookedlikeme.mp3")
     st.write("---")
 
@@ -105,24 +97,9 @@ def app():
             st.write("""The song Everything is romantic is short but perfectly encapsulates that true beauty, the Form of Beauty as its called in Symposium, can be anywhere.
             And no matter how dull your surroundings, if you care to look, you'll fall in love, again, and again, and again.""")
         with image1:
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.image("btmimages/thesymposium.jpg", width=273, caption="The Penguin Classics cover of The Symposium")
+            st.image("btmimages/thesymposium.jpg", use_container_width=True, caption="The Penguin Classics cover of The Symposium")
         with image2:
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.image("btmimages/brat.jpg", width=273, caption="Brat by Charli xcx album cover (it's supposed to be a little blurry)")
+            st.image("btmimages/brat.jpg", use_container_width=True, caption="Brat by Charli xcx album cover (it's supposed to be a little blurry)")
             st.audio("soundbites/everythingisromantic.mp3")
     st.write("---")
 
@@ -145,19 +122,9 @@ def app():
             Seam", where Katniss grew up in the books, and it would make so much sense. In conclusion, please add this song to the official Mockingjay soundtrack, 
             thank you :).""")
         with image1:
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.image("btmimages/katniss_epilogue.jpg", width=273, caption="Jennifer Lawrence as Katniss in the epilogue of Mockingjay")
+            st.image("btmimages/katniss_epilogue.jpg", use_container_width=True, caption="Jennifer Lawrence as Katniss in the epilogue of Mockingjay")
         with image2:
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.image("btmimages/rather_be_video_cover.jpg", width=273, caption="Youtube thumbnail for the music video of Rather Be by Clean Bandit (feat. Jess Glyne)")
+            st.image("btmimages/rather_be_video_cover.jpg", use_container_width=True, caption="Youtube thumbnail for the music video of Rather Be by Clean Bandit (feat. Jess Glyne)")
             st.audio("soundbites/rather_be.mp3")
     st.write("---")
     
@@ -181,11 +148,9 @@ def app():
                      to it that I didn't expect from Macross and I could not for the life of me figure out what this song was for. This book is 
                      the answer.  """)
         with image1:
-            st.image("btmimages/myladyjane.jpg", width=273, caption="The cover of My Lady Jane by Brodi Ashton, Cynthia Hand, and Jodi Meadows.")
+            st.image("btmimages/myladyjane.jpg", use_container_width=True, caption="The cover of My Lady Jane by Brodi Ashton, Cynthia Hand, and Jodi Meadows.")
         with image2:
-            st.write("")
-            st.write("")
-            st.image("btmimages/horsey.jpeg", width=273, caption="The album cover for A Million Miles Away by Macross 82-99")
+            st.image("btmimages/horsey.jpeg", use_container_width=True, caption="The album cover for A Million Miles Away by Macross 82-99")
             st.audio("soundbites/horsey.mp3")
 
     st.write("---")
@@ -210,18 +175,9 @@ def app():
             st.write("""I imagine Hitchhiker's Guide would be the perfect thing to read if I were sitting at the edge of the universe so I think
                      it would be fun to let this song traansport you there when you read it.""")
         with image1:
-            st.write("")
-            st.write("")
-            st.write("")
-            st.image("btmimages/hitchhikers.jpg", width=273, caption="The cover of the version of Hitchhiker's Guide I bought.")
+            st.image("btmimages/hitchhikers.jpg", use_container_width=True, caption="The cover of the version of Hitchhiker's Guide I bought.")
         with image2:
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.image("btmimages/hawaiipt2.jpg", width=273, caption="The album cover for Hawaii Part II buy Miracle Musical")
+            st.image("btmimages/hawaiipt2.jpg", use_container_width=True, caption="The album cover for Hawaii Part II buy Miracle Musical")
             st.audio("soundbites/dream-sweet-in-sea-major.mp3")
 
     st.write("---")
@@ -245,17 +201,9 @@ def app():
                      'Flowers for All Occasions' by Blood Cultures, who does a great job with more futuristic feeling music in general, but 
                      also this song specifically matches Staffan's state so well and he really made this book for me.""")
         with image1:
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.image("btmimages/mortaldictata.jpg", width=260, caption="Mortal Dictata by Karen Traviss cover") 
+            st.image("btmimages/mortaldictata.jpg", use_container_width=True, caption="Mortal Dictata by Karen Traviss cover") 
         with image2:
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.image("btmimages/flowersforalloccasions.jpg", width=260, caption="Flowers for All Occasions by Blood Cultures cover")
+            st.image("btmimages/flowersforalloccasions.jpg", use_container_width=True, caption="Flowers for All Occasions by Blood Cultures cover")
             st.audio("soundbites/flowers-for-all-occasions.mp3")
         
     st.write("---")
@@ -279,19 +227,9 @@ def app():
                      like it might skip a beat but you can't be sure, made for a the perfect compliment to these beautiful yet unsettling 
                      books.""")
         with image1:
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.image("btmimages/annihilation.jpg", width=273, caption="Cred to Blue J on ArtStation (https://www.artstation.com/artwork/188JZ8)")
+            st.image("btmimages/annihilation.jpg", use_container_width=True, caption="Cred to Blue J on ArtStation (https://www.artstation.com/artwork/188JZ8)")
         with image2:
-            st.write("")
-            st.write("")
-            st.write("")
-            st.write("")
-            st.image("btmimages/dreamland.jpg", width=273, caption="Ferdous Dreamland EP cover") 
+            st.image("btmimages/dreamland.jpg", use_container_width=True, caption="Ferdous Dreamland EP cover") 
             javascript_code = """
             <audio controls>
             <source src="soundbites/celestial-kiss-official-visualizer.mp3" type="audio/mpeg">
