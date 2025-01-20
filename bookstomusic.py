@@ -33,7 +33,6 @@ def app():
             st.write("""For that reason, I suggest reading this book while listening to 'She Said I'm Gloomy' by Nouvelle Story. The cartoonish and hopeful song 
             invoke such an undescribable variety of emotions that mirror those you find in Marigold and Rose's story. And I would like to think Marigold would find 
             some comfort in the song even though she realizes quickly that life is difficult.""")
-            st.write(""" """)
         with image1:
             st.image("btmimages/MarigoldAndRose.jpg", use_container_width=True, caption="Marigold and Rose by Louise Glück")
         with image2:
