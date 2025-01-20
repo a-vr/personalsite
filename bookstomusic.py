@@ -15,6 +15,32 @@ def app():
              I would love to hear from you through my contacts page.""" )
     st.write("---")
 
+    # ninth post
+    with st.container():
+        title, date = st.columns((3,1))
+        with title:
+            st.subheader("*Marigold and Rose x She Said I'm Gloomy")
+        with date:
+            st.markdown("<p style='text-align: right;'><i>1/19/2025</i></p>", unsafe_allow_html=True)
+    # text and images container
+    with st.container():
+        text, image1, image2 = st.columns((5,3,3))
+        with text:
+            st.write("""Marigold and Rose is a profound little book that follows twin girls, Marigold and Rose, in their very first year of life. 
+            Through this year, they grapple with time, safety, language, loss, and so much more: far more than you'd expect to fit into a neat 55 pages.""")
+            st.write("""Marigold's slightly melancholic nature, mixed with her large aspirations for the future, made me think she and the book she narrates 
+            would pair perfectly with an anime inspired song.""")
+            st.write("""For that reason, I suggest reading this book while listening to 'She Said I'm Gloomy' by Nouvelle Story. The cartoonish and hopeful song 
+            invoke such an undescribable variety of emotions that mirror those you find in Marigold and Rose's story. And I would like to think Marigold would find 
+            some comfort in the song even though she realizes quickly that life is difficult.""")
+            st.write(""" """)
+        with image1:
+            st.image("btmimages/MarigoldAndRose.jpg", use_container_width=True, caption="Marigold and Rose by Louise Glück")
+        with image2:
+            st.image("btmimages/shesaidimgloomy.jpg", use_container_width=True, caption="Cover Art for She Said I'm Gloomy by Nouvelle Story")
+            st.audio("soundbites/she-said-im-gloomy-remastered.mp3")
+    st.write("---")
+    
     # eighth post 
     with st.container():
         title, date = st.columns((3,1))
