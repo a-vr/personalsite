@@ -19,7 +19,7 @@ def app():
     with st.container():
         title, date = st.columns((3,1))
         with title:
-            st.subheader("*Marigold and Rose x She Said I'm Gloomy")
+            st.subheader("*Marigold and Rose x She Said I'm Gloomy*")
         with date:
             st.markdown("<p style='text-align: right;'><i>1/19/2025</i></p>", unsafe_allow_html=True)
     # text and images container
@@ -27,7 +27,7 @@ def app():
         text, image1, image2 = st.columns((5,3,3))
         with text:
             st.write("""Marigold and Rose is a profound little book that follows twin girls, Marigold and Rose, in their very first year of life. 
-            Through this year, they grapple with time, safety, language, loss, and so much more: far more than you'd expect to fit into a neat 55 pages.""")
+            Through this year, they grapple with time, safety, language, loss, and so much more: far more than you'd expect to fit in a neat 55 pages.""")
             st.write("""Marigold's slightly melancholic nature, mixed with her large aspirations for the future, made me think she and the book she narrates 
             would pair perfectly with an anime inspired song.""")
             st.write("""For that reason, I suggest reading this book while listening to 'She Said I'm Gloomy' by Nouvelle Story. The cartoonish and hopeful song 
