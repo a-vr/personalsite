@@ -21,7 +21,8 @@ def app():
             both software development and system optimization.""")
             st.write("""I am always eager to collaborate on challenging projects and contribute my skills to solve real-world problems. Feel free to connect with me through the Contact page or 
                     [LinkedIn](https://www.linkedin.com/in/akanksha-ramabadran/) if you're interested in working together or discussing opportunities.""")
-        # with img_col:
+        with img_col:
+            st.image(".streamlit/space.png", use_container_width=True)
             # add headshot
             # lot = loadlottie("https://lottie.host/6aa16f90-6007-467f-b8c1-438d7f4d26dd/WDII2HGGD4.json")
             # st_lottie(lot, height=300)
