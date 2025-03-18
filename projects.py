@@ -2,7 +2,7 @@ import streamlit as st
 
 def app():
     st.title("Projects")
-    st.write("I'll be displaying the highlights of programming projects I've worked on through years. Info about these can also be found on my resume in the top right corner of this page!")
+    st.write("I will be showcasing a selection of programming projects I have developed over the years, each demonstrating my technical expertise and problem-solving skills.")
 
     projects = [
         {
