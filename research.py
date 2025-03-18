@@ -2,8 +2,8 @@ import streamlit as st
 
 def app():
     st.title("Research Showcase")
-    st.write("Welcome to my Research Showcase!") 
-    st.write("I'll be displaying the highlights of research projects I've worked on through years. Additional projects and info can be found on my resume in the top right corner of this page if you want to learn more!")
+    st.write("Throughout my career, I have contributed to a range of impactful research projects across various scientific and technical domains. These projects highlight my ability to tackle complex problems, 
+    develop innovative solutions, and derive meaningful conclusions.")
 
     research_projects = [
         {
