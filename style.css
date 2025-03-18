@@ -17,9 +17,9 @@ input[type=text], input[type=email], textarea {
     border-radius: 4px;
   }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a darker blue color */
 button[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #1D2D44;
     }
 
 
