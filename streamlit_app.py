@@ -53,7 +53,7 @@ with st.sidebar:
                          styles={
         "container": {"padding": "5!important"},
         "icon": {"font-size": "25px"}, 
-        "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "#fff"},
+        "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "A5B5D7"},
     }
     )
 
